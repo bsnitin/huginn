@@ -185,6 +185,21 @@ end
 group :production do
   gem 'unicorn'
   gem 'unicorn-rails'
+  gem 'capybara'
+  gem 'capybara-select-2', github: 'Hirurg103/capybara_select2', require: false
+  gem 'puma'
+  gem 'rails-controller-testing'
+  gem 'rr', require: false
+  gem 'rspec'
+  gem 'rspec-collection_matchers'
+  gem 'rspec-html-matchers'
+  gem 'rspec-mocks'
+  gem 'selenium-webdriver'
+  gem 'shoulda-matchers'
+  gem 'simplecov', require: false
+  gem 'simplecov-lcov', '~> 0.8.0', require: false
+  gem 'vcr'
+  gem 'webmock'
 end
 
 # Platform requirements.
